@@ -1,0 +1,25 @@
+{
+  "name": "homenet-monitor-client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "~5.7.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "socket.io-client": "^4.8.1",
+    "recharts": "^2.15.1",
+    "lucide-react": "^0.468.0",
+    "@xyflow/react": "^12.4.4"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}
